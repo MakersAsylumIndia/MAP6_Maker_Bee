@@ -9,7 +9,7 @@ Date "2021-08-16"
 Rev "1"
 Comp "Maker's Asylum"
 Comment1 "Learn to Solder Maker's Asylum Badge"
-Comment2 ""
+Comment2 "MAP6 @ git.io/J0GPd"
 Comment3 ""
 Comment4 ""
 $EndDescr
