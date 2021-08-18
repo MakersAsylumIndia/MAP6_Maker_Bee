@@ -1,0 +1,153 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC337
+D 0.8A Ic, 45V Vce, NPN Transistor, TO-92
+K NPN Transistor
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf
+$ENDCMP
+#
+$CMP BC338
+D 0.8A Ic, 25V Vce, NPN Transistor, TO-92
+K NPN Transistor
+F http://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337
+$ENDCMP
+#
+$CMP BC546
+D 0.1A Ic, 65V Vce, Small Signal NPN Transistor, TO-92
+K NPN Transistor
+F https://www.onsemi.com/pub/Collateral/BC550-D.pdf
+$ENDCMP
+#
+$CMP BC547
+D 0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92
+K NPN Transistor
+F https://www.onsemi.com/pub/Collateral/BC550-D.pdf
+$ENDCMP
+#
+$CMP BC548
+D 0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92
+K NPN Transistor
+F https://www.onsemi.com/pub/Collateral/BC550-D.pdf
+$ENDCMP
+#
+$CMP BC549
+D 0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92
+K NPN Transistor
+F https://www.onsemi.com/pub/Collateral/BC550-D.pdf
+$ENDCMP
+#
+$CMP BC550
+D 0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92
+K NPN Transistor
+F https://www.onsemi.com/pub/Collateral/BC550-D.pdf
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP C_NonPol
+D Polarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP C_Polarized
+D Polarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP Fiducial
+D Fiducial Marker
+K fiducial marker
+F ~
+$ENDCMP
+#
+$CMP ICM7555xP
+D CMOS General Purpose Timer, 555 compatible, PDIP-8
+K single timer 555
+F http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf
+$ENDCMP
+#
+$CMP LM555xN
+D Timer, 555 compatible, PDIP-8
+K single timer 555
+F http://www.ti.com/lit/ds/symlink/lm555.pdf
+$ENDCMP
+#
+$CMP LMC555xN
+D CMOS Timer, 555 compatible, PDIP-8
+K single timer 555
+F http://www.ti.com/lit/ds/symlink/lmc555.pdf
+$ENDCMP
+#
+$CMP MC1455P
+D Timer, 555 compatible, PDIP-8
+K single timer 555
+F https://www.onsemi.com/pub/Collateral/MC1455-D.PDF
+$ENDCMP
+#
+$CMP Motor_DC
+D DC Motor
+K DC Motor
+F ~
+$ENDCMP
+#
+$CMP MountingHole
+D Mounting Hole without connection
+K mounting hole
+F ~
+$ENDCMP
+#
+$CMP MountingHole_Pad
+D Mounting Hole with connection
+K mounting hole
+F ~
+$ENDCMP
+#
+$CMP NA555P
+D Precision Timers, 555 compatible, PDIP-8
+K single timer 555
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP NE555P
+D Precision Timers, 555 compatible,  PDIP-8
+K single timer 555
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SA555P
+D Precision Timers, 555 compatible, PDIP-8
+K single timer 555
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SE555P
+D Precision Timers, 555 compatible, PDIP-8
+K single timer 555
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SW_SPST
+D Single Pole Single Throw (SPST) switch
+K switch lever
+F ~
+$ENDCMP
+#
+$CMP SolderJumper_2_Bridged
+D Solder Jumper, 2-pole, closed/bridged
+K solder jumper SPST
+F ~
+$ENDCMP
+#
+$CMP TLC555xP
+D Single LinCMOS Timer, 555 compatible, PDIP-8
+K single timer 555
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
+$ENDCMP
+#
+#End Doc Library
