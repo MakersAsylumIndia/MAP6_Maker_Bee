@@ -66,6 +66,12 @@ K fiducial marker
 F ~
 $ENDCMP
 #
+$CMP H_Pin
+D Mounting Hole without connection
+K mounting hole
+F ~
+$ENDCMP
+#
 $CMP ICM7555xP
 D CMOS General Purpose Timer, 555 compatible, PDIP-8
 K single timer 555

@@ -1,4 +1,4 @@
-update=Wed Aug 18 01:39:13 2021
+update=Tue Aug 31 17:50:47 2021
 version=1
 last_client=kicad
 [cvpcb]
@@ -44,7 +44,7 @@ ViaDrill1=0.4
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
-SilkLineWidth=0.15
+SilkLineWidth=1
 SilkTextSizeV=0.8999999999999999
 SilkTextSizeH=0.8999999999999999
 SilkTextSizeThickness=0.15
@@ -64,7 +64,7 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
-SolderMaskClearance=0.2
+SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=-0
