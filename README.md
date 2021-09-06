@@ -21,7 +21,7 @@ Honey Bee shaped course ware for Maker's Asylum Electronics course.
 
 SET UP A LINK -> DISCUSSION FORUM : http://discuss.makersasylum.com/t/map4-makers-asylum-learn-to-solder-badge/123
 
-renders
+**Renders**
 ![MAP6](https://github.com/MakersAsylumIndia/MAP6/blob/main/kicad/images/MAP6_05.png)
 
 ![MAP6](https://github.com/MakersAsylumIndia/MAP6/blob/main/kicad/images/MAP6_06.png)
@@ -29,6 +29,9 @@ renders
 ![MAP6](https://github.com/MakersAsylumIndia/MAP6/blob/main/kicad/images/MAP6_03.png)
 
 ![MAP6](https://github.com/MakersAsylumIndia/MAP6/blob/main/kicad/images/MAP6_04.png)
+
+**Animation**
+![MAP6_gif](https://github.com/MakersAsylumIndia/MAP6/blob/main/renders/animations/MAP6_07.gif)
 
 
 License
