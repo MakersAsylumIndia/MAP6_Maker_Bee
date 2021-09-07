@@ -41,7 +41,7 @@ U 1 1 570F5FD9
 P 2725 3175
 F 0 "BT1" V 2725 3300 40  0000 L CNN
 F 1 "BAT" V 2800 3300 40  0000 L CNN
-F 2 "map6_fp:cr2032_02" H 2725 3175 60  0001 C CNN
+F 2 "map6_fp:cr2032_03" H 2725 3175 60  0001 C CNN
 F 3 "" H 2725 3175 60  0000 C CNN
 F 4 "HOLDER BATTERY COIN 20MM DIA THM" H 2725 3475 60  0001 L CNN "Field4"
 F 5 "Coin Cell, Retainer" H 2725 3575 60  0001 L CNN "Field5"
@@ -59,7 +59,7 @@ L map6:R R1
 U 1 1 57443D6C
 P 7100 4300
 F 0 "R1" H 7050 4125 40  0000 C CNN
-F 1 "150E" V 7100 4300 40  0000 C CNN
+F 1 "220E" V 7100 4300 40  0000 C CNN
 F 2 "map6_fp:r_0805" V 7030 4300 50  0001 C CNN
 F 3 "" H 7100 4300 50  0000 C CNN
 F 4 "Value" H 7100 4300 60  0001 C CNN "manf#"
@@ -71,7 +71,7 @@ L map6:R R2
 U 1 1 57443E35
 P 7600 4300
 F 0 "R2" H 7550 4125 40  0000 C CNN
-F 1 "150E" V 7600 4300 40  0000 C CNN
+F 1 "220E" V 7600 4300 40  0000 C CNN
 F 2 "map6_fp:r_0805" V 7530 4300 50  0001 C CNN
 F 3 "" H 7600 4300 50  0000 C CNN
 F 4 "Value" H 7600 4300 60  0001 C CNN "manf#"
@@ -83,7 +83,7 @@ L map6:R R3
 U 1 1 57443E83
 P 6600 4300
 F 0 "R3" H 6550 4125 40  0000 C CNN
-F 1 "15E" V 6600 4300 40  0000 C CNN
+F 1 "47E" V 6600 4300 40  0000 C CNN
 F 2 "map6_fp:r_0805" V 6530 4300 50  0001 C CNN
 F 3 "" H 6600 4300 50  0000 C CNN
 F 4 "Value" H 6600 4300 60  0001 C CNN "manf#"
@@ -210,7 +210,7 @@ L map6:Motor_DC M1
 U 1 1 6118D8BD
 P 6600 3600
 F 0 "M1" H 6625 3725 50  0000 L CNN
-F 1 "Motor_vibration" V 6500 3725 50  0000 L CNN
+F 1 "Motor" V 6500 3725 50  0001 L CNN
 F 2 "map6_fp:motor_XDCR_C0720B001F" H 6600 3510 50  0001 C CNN
 F 3 "~" H 6600 3510 50  0001 C CNN
 	1    6600 3600
@@ -303,7 +303,7 @@ U 1 1 6122FEF9
 P 2725 2475
 F 0 "SW1" V 2800 2350 40  0000 R CNN
 F 1 "On" V 2725 2350 40  0000 R CNN
-F 2 "map6_fp:SW_CuK_JS202011AQN_DPDT_Angled" H 2725 2475 50  0001 C CNN
+F 2 "map6_fp:SW_SPDT_Straight" H 2725 2475 50  0001 C CNN
 F 3 "~" H 2725 2475 50  0001 C CNN
 	1    2725 2475
 	0    -1   1    0   
@@ -334,8 +334,8 @@ L map6:R R6
 U 1 1 6124FB0C
 P 4025 2200
 F 0 "R6" H 3975 2025 40  0000 C CNB
-F 1 "DNP" V 4025 2200 40  0000 C CNB
-F 2 "map6_fp:r_0805_DNP" V 3955 2200 50  0001 C CNN
+F 1 "10k" V 4025 2200 40  0000 C CNB
+F 2 "map6_fp:r_0805" V 3955 2200 50  0001 C CNN
 F 3 "" H 4025 2200 50  0000 C CNN
 F 4 "Value" H 4025 2200 60  0001 C CNN "manf#"
 	1    4025 2200
@@ -346,8 +346,8 @@ L map6:R R4
 U 1 1 612504EF
 P 4025 1425
 F 0 "R4" H 3975 1250 40  0000 C CNB
-F 1 "DNP" V 4025 1425 40  0000 C CNB
-F 2 "map6_fp:r_0805_DNP" V 3955 1425 50  0001 C CNN
+F 1 "1k" V 4025 1425 40  0000 C CNB
+F 2 "map6_fp:r_0805" V 3955 1425 50  0001 C CNN
 F 3 "" H 4025 1425 50  0000 C CNN
 F 4 "Value" H 4025 1425 60  0001 C CNN "manf#"
 	1    4025 1425
@@ -374,8 +374,6 @@ Wire Wire Line
 Wire Wire Line
 	6175 3775 6175 2825
 Connection ~ 6175 2825
-Wire Wire Line
-	6175 2825 6600 2825
 Wire Wire Line
 	7100 3025 7100 3275
 Wire Wire Line
@@ -408,8 +406,8 @@ Wire Notes Line width 10 rgb(255, 128, 0)
 	3200 3450 2200 3450
 Wire Notes Line width 10 rgb(255, 128, 0)
 	2200 3450 2200 2200
-Text Notes 2175 2425 2    50   ~ 0
-Battery Holder\n2x2032 or 2x2016\nwith switch
+Text Notes 2175 3450 2    50   ~ 0
+Battery Holder\n2x2032 or 2x2016\nwith switch\n\nBT2 is alternate\nfootprint
 Wire Notes Line width 10 rgb(255, 128, 0)
 	6700 6350 6700 5500
 Wire Notes Line width 10 rgb(255, 128, 0)
@@ -430,8 +428,6 @@ Connection ~ 4025 3775
 Wire Wire Line
 	4025 3775 4025 4150
 Connection ~ 4025 3025
-Text Notes 2725 5150 0    50   ~ 0
-NOTE\nWith JUMPER JP1 bridged, output current is variable causing "breathing LED" effect\nC1/R5 values affect breathing effect\n\nWith JUMPER JP1 open, and resistors R4/R6 populated, the 555 works as a classic astable - so output voltage switches between 2/3rd and 1/3rd supply\nC1/R4/R6 values affect astable frequency\n
 $Comp
 L map6:BC547 Q1
 U 1 1 611FCD1D
@@ -457,8 +453,34 @@ $EndComp
 Text Notes 10100 5725 0    50   ~ 0
 STING\nsolder short wire for sting
 Wire Wire Line
-	6600 3400 6600 2825
-Connection ~ 6600 2825
+	6600 3400 6600 3275
+$Comp
+L map6:BATT_HOLDER BT2
+U 1 1 6138C33B
+P 2375 3175
+F 0 "BT2" V 2375 3300 40  0000 L CNN
+F 1 "BAT" V 2450 3300 40  0000 L CNN
+F 2 "map6_fp:cr2032_04_3025-2" H 2375 3175 60  0001 C CNN
+F 3 "" H 2375 3175 60  0000 C CNN
+F 4 "HOLDER BATTERY COIN 20MM DIA THM" H 2375 3475 60  0001 L CNN "Field4"
+F 5 "Coin Cell, Retainer" H 2375 3575 60  0001 L CNN "Field5"
+F 6 "Coin, 20.0mm" H 2375 3675 60  0001 L CNN "Field6"
+F 7 "Keystone Electronics" H 2375 3775 60  0001 L CNN "Field7"
+F 8 "3003" H 2375 3875 60  0001 L CNN "Field8"
+F 9 "Digikey" H 2375 3975 60  0001 L CNN "Field9"
+F 10 "3003K-ND" H 2375 4075 60  0001 L CNN "Field10"
+F 11 "http://www.digikey.com/scripts/DkSearch/dksus.dll?x=0&y=0&lang=en&KeyWords=3003K-ND&cur=USD" H 2375 4175 60  0001 L CNN "Field11"
+	1    2375 3175
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	6600 2825 6800 2825
+	2375 3375 2725 3375
+Connection ~ 2725 3375
+Wire Wire Line
+	2375 2925 2725 2925
+Connection ~ 2725 2925
+Wire Wire Line
+	7100 3275 6600 3275
+Wire Wire Line
+	6175 2825 6800 2825
 $EndSCHEMATC

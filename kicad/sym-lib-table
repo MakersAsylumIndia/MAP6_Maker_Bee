@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name map6)(type Legacy)(uri ${KIPRJMOD}/map6.lib)(options "")(descr ""))
-  (lib (name MAP6-rescue)(type Legacy)(uri ${KIPRJMOD}/MAP6-rescue.lib)(options "")(descr ""))
+  (lib (name map6)(type Legacy)(uri ${KIPRJMOD}/sch_libs/map6.lib)(options "")(descr ""))
 )
