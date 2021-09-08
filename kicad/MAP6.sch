@@ -399,15 +399,15 @@ $EndComp
 Wire Wire Line
 	4025 3025 4025 2450
 Wire Notes Line width 10 rgb(255, 128, 0)
-	2200 2200 3200 2200
+	1700 2200 3200 2200
 Wire Notes Line width 10 rgb(255, 128, 0)
 	3200 2200 3200 3450
 Wire Notes Line width 10 rgb(255, 128, 0)
-	3200 3450 2200 3450
+	3200 3450 1700 3450
 Wire Notes Line width 10 rgb(255, 128, 0)
-	2200 3450 2200 2200
-Text Notes 2175 3450 2    50   ~ 0
-Battery Holder\n2x2032 or 2x2016\nwith switch\n\nBT2 is alternate\nfootprint
+	1700 3450 1700 2200
+Text Notes 1600 3450 2    50   ~ 0
+Battery Holder\n2x2032\nwith switch\n\nBT2 is alternate\nfootprint\n\nJ1 is for\nexternal supply
 Wire Notes Line width 10 rgb(255, 128, 0)
 	6700 6350 6700 5500
 Wire Notes Line width 10 rgb(255, 128, 0)
@@ -483,4 +483,25 @@ Wire Wire Line
 	7100 3275 6600 3275
 Wire Wire Line
 	6175 2825 6800 2825
+$Comp
+L map6:Conn_01x02 J1
+U 1 1 613AE342
+P 1900 3200
+F 0 "J1" H 1900 3000 40  0000 C CNN
+F 1 "JST2" H 1900 2925 40  0000 C CNN
+F 2 "map6_fp:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 1900 3200 50  0001 C CNN
+F 3 "~" H 1900 3200 50  0001 C CNN
+	1    1900 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2100 2925 2375 2925
+Connection ~ 2375 2925
+Wire Wire Line
+	2100 3200 2100 3375
+Wire Wire Line
+	2100 3375 2375 3375
+Connection ~ 2375 3375
+Wire Wire Line
+	2100 3100 2100 2925
 $EndSCHEMATC
