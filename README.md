@@ -33,9 +33,20 @@ SET UP A LINK -> DISCUSSION FORUM : http://discuss.makersasylum.com/t/map4-maker
 **Animation**
 ![MAP6_gif](https://github.com/MakersAsylumIndia/MAP6/blob/main/renders/animations/MAP6_07.gif)
 
+## OSHWA Certification
+
+The **MAP6** "Maker Bee" is "Open Source Hardware" as certified by the [OSHWA](https://certification.oshwa.org/in000031.html).
+OSHWA UID for the M19O2 is **IN000031**
+
+<a href="https://certification.oshwa.org/in000031.html"><img src="OSHWA_IN000031.svg" alt="OSHWA UID IN000031" width="400">
+
 
 License
 -------
+
+<a href="LICENSE.md"><img src="oshw_facts.png" width="400" alt="Open Source Licenses Facts"/></a>
+
+  
 [CERN Open Hardware Licence v1.2 ]
 
 [CERN Open Hardware Licence v1.2 ]:http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt
