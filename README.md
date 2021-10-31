@@ -44,7 +44,7 @@ OSHWA UID for the M19O2 is **IN000031**
 License
 -------
 
-<a href="LICENSE.md"><img src="oshw_facts.png" width="400" alt="Open Source Licenses Facts"/></a>
+<a href="LICENSE.md"><img src="oshw_facts.svg" width="400" alt="Open Source Licenses Facts"/></a>
 
   
 [CERN Open Hardware Licence v1.2 ]
